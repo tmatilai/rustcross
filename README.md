@@ -10,6 +10,6 @@ Currently included:
 
 ## CHANGELOG
 
-## 1.0.0 / _Not released yet_
+## 1.0.0 / 2022-02-20
 
 - First versions of `dbus-arm-gnu` and `dbus-arm-musl`.
