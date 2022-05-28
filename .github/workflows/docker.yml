@@ -21,6 +21,7 @@ jobs:
       fail-fast: false
       matrix:
         flavor:
+          - dbus-aarch64-gnu
           - dbus-armv7-gnu
           - dbus-armv7-musl
     env:
