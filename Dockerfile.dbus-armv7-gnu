@@ -1,5 +1,5 @@
-# rustembedded/cross:armv7-unknown-linux-gnueabihf
-FROM rustembedded/cross@sha256:d628d4c4a61ea4d9bb59596eb02178d0b2789e770e2fe391cb1d86cf8301919a
+# Pinning a "main" branch version until a stable release in ghcr
+FROM ghcr.io/cross-rs/armv7-unknown-linux-gnueabihf:main@sha256:839f9f0b8a04a5bab473a6c68e198455a3be5ee4025c50e4f20d19568e373e8b
 
 # Install libdbus libraries and pkg-config
 RUN dpkg --add-architecture armhf && \

@@ -10,6 +10,10 @@ Currently included:
 
 ## CHANGELOG
 
+## 1.0.1 / _Not released yet_
+
+- Use base images from `ghcr.io/cross-rs/` instead of Docker Hub. Pin to the latest "main" until a stable release has been tagged.
+
 ## 1.0.0 / 2022-02-20
 
 - First versions of `dbus-arm-gnu` and `dbus-arm-musl`.
