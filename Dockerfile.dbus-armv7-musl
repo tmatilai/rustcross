@@ -1,5 +1,5 @@
 # Pinning a "main" branch version until a stable release in ghcr
-FROM ghcr.io/cross-rs/armv7-unknown-linux-musleabihf:main@sha256:4657746e238e554aa32d2b0d8c9beb53cbe297a2542168067742c47d43aba5ad
+FROM ghcr.io/cross-rs/armv7-unknown-linux-musleabihf:main@sha256:00088ebbb98f5d9895c2b6e7f713cd3028331185fe82f60d93efc03bdff8ea65
 
 # Install libdbus libraries and pkg-config
 RUN dpkg --add-architecture armhf && \
