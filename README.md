@@ -11,7 +11,7 @@ Currently included:
 
 ## CHANGELOG
 
-## 1.1.1 / _Not released yet_
+## 1.1.1 / 2022-07-12
 
 - Use stable base images from `ghcr.io/cross-rs/`, upgrade to v0.2.4.
 
