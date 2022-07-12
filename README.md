@@ -11,6 +11,9 @@ Currently included:
 
 ## CHANGELOG
 
+## 1.1.1 / _Not released yet_
+
+
 ## 1.1.0 / 2022-05-29
 
 - Add `dbus-aarch64-gnu`.
