@@ -56,7 +56,7 @@ jobs:
             type=raw,prefix=,value=${{ matrix.flavor }},enable=${{ endsWith(github.ref, github.event.repository.default_branch) }}
 
       - name: Build and push Docker image
-        uses: docker/build-push-action@v3.0.0
+        uses: docker/build-push-action@v3.1.0
         with:
           context: .
           file: Dockerfile.${{ matrix.flavor }}
