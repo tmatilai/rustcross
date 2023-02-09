@@ -1,4 +1,4 @@
-FROM ghcr.io/cross-rs/armv7-unknown-linux-gnueabihf:0.2.4
+FROM ghcr.io/cross-rs/armv7-unknown-linux-gnueabihf:0.2.5
 
 # Install libdbus libraries and pkg-config
 RUN dpkg --add-architecture armhf && \
